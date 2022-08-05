@@ -142,7 +142,7 @@ a {
 	color: black;
 }
 .free-trial {
-	font-size: 12px;
+	font-size: 14px;
 }
 .landing .container .frame-box {
 	max-width: 850px;
@@ -266,16 +266,12 @@ a {
 	left: 10px;
 }
 .infos .person-info {
-	height: 480px;
-}
-.transform-scale-eight {
+	height: 450px;
 	transform: scale(.8);
 }
-.transform-scale-nine {
-	transform: scale(.9);
-}
-.transform-scale-one-one {
-	transform: scale(1.1);
+.infos .person-info:nth-child(2) {
+	height: 550px;
+	transform: scale(1);
 }
 /* End Card */
 /* Start Footer */
